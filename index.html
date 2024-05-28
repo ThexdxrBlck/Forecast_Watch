@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecast Watch</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="search-header">
+            <input type="text" placeholder="Enter city name" spellcheck="false">
+            <button>
+                <img src="images/search.png" alt="Search Icon">
+            </button>
+
+        </header>
+        <main class="weather-container">
+            <div class="error">
+                <p><b>City not found</b></p>
+            </div>
+            <img src="images/rain.png" class="weather-icon" alt="Rain Icon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="detail-item">
+                    <img src="images/humidity.png" alt="Humidity Icon">
+                    <p class="value humidity">50%</p>
+                    <p class="label"><b>Humidity</b></p>
+                </div>
+                <div class="detail-item">
+                    <img src="images/wind.png" alt="Wind Icon">
+                    <p class="value wind">15 km/h</p>
+                    <p class="label"><b>Wind</b></p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
